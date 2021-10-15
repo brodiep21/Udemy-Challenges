@@ -30,7 +30,7 @@ let bill = {
 console.log(calcTip(306));
 let tips1 = [calcTip(bill.bill1),calcTip(bill.bill2), calcTip(bill.bill3)]
 
-let total = [tips[0] + bill.bill1, tips[1] + bill.bill2, tips[2] + bill.bill3]
+let total = [tips1[0] + bill.bill1, tips1[1] + bill.bill2, tips1[2] + bill.bill3]
 
-console.log(tips, total)
+console.log(tips1, total)
 
